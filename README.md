@@ -22,7 +22,7 @@ Trains and evaluates a **Deep Q-Network (DQN)** agent for Connect Four.
 - Evaluates the agent against random or rule-based opponents after training.
 
 ### `DQN_model_tuning.ipynb`
-Tunes hyperparameters for the DQN agent to improve performance.
+Very similar to the training notebook, but tunes hyperparameters for the DQN agent to improve performance.
 
 - Explores different network architectures.
 - Helps identify the best hyperparameter settings for training.
@@ -46,3 +46,18 @@ Tunes hyperparameters for the DQN agent to improve performance.
 ## Dependencies
 
 Dependencies can be found in `requirements.txt`.
+
+## Acknowledgments
+
+This project would not have been possible without the excellent open-source codebases and resources that informed and inspired much of the development. Special thanks to the authors of the following projects:
+
+- [Danielhp95/gym-connect4](https://github.com/Danielhp95/gym-connect4)
+- [lucasBertola/Connect-4-Gym-env-Reinforcement-learning](https://github.com/lucasBertola/Connect-4-Gym-env-Reinforcement-learning)
+- [plkmo/AlphaZero_Connect4](https://github.com/plkmo/AlphaZero_Connect4)
+- [jpbruneton/Alpha-Zero-algorithm-for-Connect-4-game](https://github.com/jpbruneton/Alpha-Zero-algorithm-for-Connect-4-game)
+- [dstekol/AlphaFour](https://github.com/dstekol/AlphaFour)
+- [auxeno/alphazero-connect-4-rl (Kaggle)](https://www.kaggle.com/code/auxeno/alphazero-connect-4-rl)
+- [marcpaulo15/RL-connect4](https://github.com/marcpaulo15/RL-connect4)
+- [TarunSrinivas23/connect-4-dqn-pytorch](https://github.com/TarunSrinivas23/connect-4-dqn-pytorch/tree/master)
+
+Thank you for your contributions to the community and for helping make this project possible.
